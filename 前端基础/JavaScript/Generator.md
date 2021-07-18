@@ -147,3 +147,6 @@ f.next() // 5 {value: undefined, done: true}
 
 其实 `yield*` 后面只要是可迭代元素都可以被遍历。
 
+
+
+相关文章，也可以看这篇：http://www.alloyteam.com/2016/02/generators-in-depth/

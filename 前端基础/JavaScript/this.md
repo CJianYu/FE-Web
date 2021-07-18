@@ -156,3 +156,6 @@ bar.call(obj2) // 2
 
 `foo() ` 内部创建的箭头函数会捕获调用 `foo()` 的 this。由于 `foo()` 的 this 绑定到了 obj1，所以 bar 的 this 也会绑定到 obj1，箭头函数的绑定无法被修改。
 
+
+
+也可以看这篇：https://github.com/mqyqingfeng/Blog/issues/7
