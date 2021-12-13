@@ -1,0 +1,29 @@
+.list-view {
+  height: 400px;
+  overflow: auto;
+  position: relative;
+  color: #333;
+  border: 1px solid #aaa;
+}
+
+.list-view-phantom {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.list-view-content {
+  left: 0;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+
+.list-view-item {
+  padding: 5px;
+  color: #666;
+  line-height: 30px;
+  box-sizing: border-box;
+}
